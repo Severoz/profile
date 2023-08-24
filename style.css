@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&family=Noto+Sans:ital,wght@0,300;1,100&display=swap');
+
+body {
+  background-color: rgb(243, 237, 226);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 900;
+  color: rgb(85, 26, 139);
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #A26769;
+}
+
+a:hover {
+  color:black;
+}
+
+/* Custom Design */
+
+.card-white {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1); /* Light shadow */
+  border: 1px solid lightgrey;
+  width: 100%;
+  margin :24px auto;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+  height: 170px;
+  width: 150px ;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-purple {
+background-color: rgb(85, 26, 139);
+color: white;
+border-radius: 4px;
+padding: 16px 24px;
+border : 1px solid transparent;
+text-decoration: none;
+}
+
+.btn-purple:hover {
+  border : 1px solid rgb(85, 26, 139);
+  color: rgb(85, 26, 139);
+  background-color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.fa-brands {
+  font-size: 40px;
+}
+
+#intro p {
+  margin-bottom: 32px;
+}
+
+.container {
+  width: 1000px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  padding: 0% 5%;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
